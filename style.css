@@ -80,6 +80,10 @@ h3 {
     text-transform: uppercase;
 }
 
+.additem {
+    display: flex;
+}
+
 input[type="text"],
 .additem__input {
     margin: 0;
@@ -94,7 +98,8 @@ input[type="text"],
     color: #888;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus,
+.additem__input:focus {
     color: #333;
 }
 
@@ -160,7 +165,8 @@ button.delete img:hover {
 /* Completed */
 
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through;
+    text-decoration-color: #888
 }
 
 
@@ -172,7 +178,7 @@ ul li input[type="text"] {
 
 ul li.editMode input[type="text"] {
     display: inline-block;
-    width: 224px;
+    width: 214px;
 }
 
 ul li.editMode label {
