@@ -13,11 +13,11 @@ body {
   text-align: right;
 }
 
-.headerlogo__logo {
+.header-logo__logo {
   width: 100%;
 }
 
-.headerlogo__link {
+.header-logo__link {
   font-family: fantasy, cursive;
 }
 
