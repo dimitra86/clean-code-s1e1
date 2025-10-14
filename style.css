@@ -26,16 +26,17 @@ body {
     text-align: center;
   }
 }
-
 .wrapper {
   display: block;
   width: 400px;
   margin: 0 auto 0;
-}
 
-.task {
+}
+.task-row-wrapper {
+    display: flex;
   width: 56%;
   display: inline-block;
+
 }
 
 ul {
@@ -113,16 +114,14 @@ input[type="text"]:focus,
   width: 318px;
 }
 
-.additem__button:hover {
-  color: #0fc57c;
-}
-
 /* Task list */
 
 li {
+
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
+
 }
 
 li > * {
@@ -143,6 +142,7 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
+
 
 li > button.delete:hover {
   color: #cf2323;
